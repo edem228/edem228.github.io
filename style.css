@@ -33,6 +33,13 @@ div #menu{
     padding: 5px 10px;
     color: #fff;
 }
+#menu ul li a:focus{
+    transition-duration: 1000ms;
+}
+#menu ul li:hover{
+    background-color: rgba(158, 0, 9, 0.97);
+    transition-duration: 1000ms;
+}
 #menu ul li::before{
     color: #fff;
     margin-right: 5px;
@@ -91,6 +98,10 @@ div.social{
     font-size: 30px;
     display: inline-block;
     margin: 5px;
+}
+div.social:hover{
+    color: #5F0008;
+    transition-duration: 500ms;
 }
 div.copy{
     float: right;
