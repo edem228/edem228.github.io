@@ -30,7 +30,7 @@ div #menu{
 
 #menu ul li a{
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 5px 20px;
     color: #fff;
 }
 #menu ul li a:focus{
@@ -44,10 +44,12 @@ div #menu{
     color: #fff;
     margin-right: 5px;
     font-size: 30px;
+    float: right;
 }
 #menu ul li::after{
-    content: '>';
+    content: '\f501';
     color: #fff;
+    float: right;
 }
 .main{
     width: 760px;
@@ -92,6 +94,11 @@ p{
 }
 #social{
     margin: 20px auto 10px auto;
+}
+
+div.social a{
+    border-radius: 50%;
+    border-color: #fff;
 }
 div.social{
     font-family: "Genericons";
