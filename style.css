@@ -34,7 +34,8 @@ div #menu{
     color: #fff;
 }
 #menu ul li a:focus{
-    transition-duration: 1000ms;
+    transition-duration: 5000ms;
+    transition-delay: 5000ms;
 }
 #menu ul li:hover{
     background-color: rgba(158, 0, 9, 0.97);
@@ -42,9 +43,9 @@ div #menu{
 }
 #menu ul li::before{
     color: #fff;
-    margin-right: 5px;
+    float: left;
     font-size: 30px;
-    float: right;
+
 }
 #menu ul li::after{
     content: '\f501';
